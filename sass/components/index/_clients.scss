@@ -1,0 +1,44 @@
+.clients .container {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+  
+  
+  .clients .section-title {
+    margin-bottom: 50px;
+  }
+  
+  .clients-list {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .clients-list-link {
+    height: 90px;
+    width: 170px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    transition: border 250ms var(--cubic);
+  }
+  
+  .clients-list-icon {
+    height: 50px;
+    max-width: 90px;
+    fill: currentColor;
+    transition: fill 250ms var(--cubic);
+  }
+  
+  .clients-list-link:hover .clients-list-icon,
+  .clients-list-link:focus .clients-list-icon {
+    fill: var(--accent-color);
+  }
+  .clients-list-link:hover,
+  .clients-list-link:focus {
+    outline: none;
+    border-color: var(--accent-color);
+  }

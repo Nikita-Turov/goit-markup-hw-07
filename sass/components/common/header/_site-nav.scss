@@ -1,0 +1,21 @@
+  .site-nav-list-item:not(:last-child) {
+    margin-right: 50px;
+  }
+  
+  
+  .site-nav-list {
+    display: flex;
+    color: var(--primary-color);
+  }
+    
+  .site-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: relative;
+    transition: color 250ms var(--cubic), fill 250ms var(--cubic);
+  }

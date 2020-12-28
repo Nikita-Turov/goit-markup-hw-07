@@ -1,0 +1,20 @@
+@import 'utilites/global';
+@import 'utilites/vars';
+@import 'components/common/header/auth-nav';
+@import 'components/common/header/header';
+@import 'components/common/header/site-nav';
+@import 'components/common/footer/footer';
+@import 'components/common/footer/footer-form';
+    
+// /* ==================== INDEX ========= */
+
+@import 'components/index/hero';
+@import 'components/index/whatwedo';
+@import 'components/index/our-team';
+@import 'components/index/social-links';
+@import 'components/index/clients';
+
+// /* ==================== portfolio ========= */
+@import 'components/portfolio/main/portfolio-content';
+@import 'components/portfolio/modal/modal-backdrop';
+@import 'components/portfolio/modal/modal-form';

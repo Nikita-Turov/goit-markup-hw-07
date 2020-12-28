@@ -1,0 +1,31 @@
+.auth-nav-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.auth-nav-list {
+  display: flex;
+  color: var(--primary-color);
+}
+
+.auth-nav-container {
+  margin-left: auto;
+}
+.auth-nav {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: color 250ms var(--cubic), fill 250ms var(--cubic);
+}
+
+  
+.svg-nav-pic {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  }

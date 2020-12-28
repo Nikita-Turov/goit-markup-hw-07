@@ -24,20 +24,17 @@
     fill: var(--primary-color);
     transition: background-color 250ms var(--cubic), 250ms var(--cubic),
       fill 250ms var(--cubic);
+    
+    &:hover .social-links-icon, &:focus .social-links-icon {
+      fill: var(--white-color);
+    }
+    &:hover, &:focus {
+      background-color: var(--accent-color);
+    }
   }
   
   .social-links-icon {
     height: 20px;
     width: 20px;
     fill: var(--primary-color);
-  }
-  
-  .social-links-link:hover .social-links-icon,
-  .social-links-link:focus .social-links-icon {
-    fill: var(--white-color);
-  }
-  
-  .social-links-link:hover,
-  .social-links-link:focus {
-    background-color: var(--accent-color);
   }

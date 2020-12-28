@@ -28,6 +28,9 @@
   
   .whatwedo-list-item {
     position: relative;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   
   .whatwedo-list-item-descr {
@@ -48,11 +51,7 @@
     padding-top: 27px;
     padding-bottom: 27px;
   }
-  
-  .whatwedo-list-item:not(:last-child) {
-    margin-right: 30px;
-  }
-  
+    
   .features .container {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -66,12 +65,11 @@
   
   .features-list-item {
     width: 270px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
-  
-  .features-list-item:not(:last-child) {
-    margin-right: 30px;
-  }
-  
+    
   .features-item {
     color: var(--second-color);
     font-weight: 700;

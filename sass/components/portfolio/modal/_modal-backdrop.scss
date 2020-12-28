@@ -33,6 +33,9 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     outline: none;
     cursor: pointer;
+    &:hover .close-btn-x {
+      fill: var(--accent-color);
+    }
   }
   
   .close-btn-x {
@@ -44,10 +47,7 @@
     transform: translate(-50%, -50%);
     fill: #000000;
   }
-  
-  .close-btn:hover .close-btn-x {
-    fill: var(--accent-color);
-  }
+
   
   .backdrop.is-hidden {
     transition: all 250ms var(--cubic) 250ms;

@@ -1,4 +1,4 @@
-.clients .container {
+  .clients .container {
     padding-bottom: 94px;
     padding-top: 94px;
   }
@@ -24,6 +24,14 @@
     justify-content: center;
     color: var(--primary-color);
     transition: border 250ms var(--cubic);
+
+    &:hover, &:focus {
+      outline: none;
+      border-color: var(--accent-color);
+    }
+    &:hover .clients-list-icon, &:focus .clients-list-icon {
+      fill: var(--accent-color);
+    }
   }
   
   .clients-list-icon {
@@ -31,14 +39,4 @@
     max-width: 90px;
     fill: currentColor;
     transition: fill 250ms var(--cubic);
-  }
-  
-  .clients-list-link:hover .clients-list-icon,
-  .clients-list-link:focus .clients-list-icon {
-    fill: var(--accent-color);
-  }
-  .clients-list-link:hover,
-  .clients-list-link:focus {
-    outline: none;
-    border-color: var(--accent-color);
   }
